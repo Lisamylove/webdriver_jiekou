@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="189e9dd3-c8ff-47a4-8751-26b6c2fa8654" name="Default Changelist" comment="" />
+    <list default="true" id="189e9dd3-c8ff-47a4-8751-26b6c2fa8654" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webdriver_requests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webdriver_requests.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/testcase_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/testcase_login.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testcase/testcase_login.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testCase/testcase_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="78">
+              <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -22,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="-1299">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -44,7 +52,18 @@
     <findStrings>
       <find>961111</find>
       <find>username</find>
+      <find>l</find>
+      <find>fram</find>
+      <find>gongdan_id</find>
+      <find>id</find>
+      <find>gongdanState</find>
+      <find>gongdan</find>
+      <find>gongdanS</find>
+      <find>orgId</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -55,6 +74,10 @@
         <option value="$PROJECT_DIR$/testcase/testcase_add.py" />
         <option value="$PROJECT_DIR$/testcase/testcase_toadd.py" />
         <option value="$PROJECT_DIR$/testcase/testcase_login.py" />
+        <option value="$PROJECT_DIR$/common/configSQLDB.py" />
+        <option value="$PROJECT_DIR$/common/config_4_view.py" />
+        <option value="$PROJECT_DIR$/testCase/12.py" />
+        <option value="$PROJECT_DIR$/testCase/testcase_login.py" />
         <option value="$PROJECT_DIR$/common/config.py" />
       </list>
     </option>
@@ -70,32 +93,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="webdriver_requests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webdriver_requests" type="462c0819:PsiDirectoryNode" />
+              <item name="webdriver_jiekou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdriver_jiekou" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="webdriver_requests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webdriver_requests" type="462c0819:PsiDirectoryNode" />
+              <item name="webdriver_jiekou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdriver_jiekou" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="webdriver_requests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webdriver_requests" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="webdriver_jiekou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdriver_jiekou" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -109,8 +133,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testcase_login">
-    <configuration name="requests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests in testcase_login.py">
+    <configuration name="12" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="webdriver_requests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,11 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\python\webdriver_requests\testcase\testcase_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCase/12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testcase" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="configSQLDB" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="webdriver_requests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +163,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\python\webdriver_requests\testcase\testcase_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/configSQLDB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,146 +176,179 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testcase_add" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for testcase_login.Test.test_4_list" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="webdriver_requests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/testcase_add.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcase_login.Test.test_4_list&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="testcase_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for testcase_login.Test.test_5_check" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="webdriver_requests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/testcase_login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcase_login.Test.test_5_check&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="testcase_toadd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests in testcase_login.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="webdriver_requests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/testcase_toadd.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/testcase_login.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.testcase_login" />
-        <item itemvalue="Python.testcase_add" />
-        <item itemvalue="Python.testcase_toadd" />
-        <item itemvalue="Python.testcase" />
-        <item itemvalue="Python.requests" />
+        <item itemvalue="Python tests.Unittests in testcase_login.py" />
+        <item itemvalue="Python tests.Unittests for testcase_login.Test.test_5_check" />
+        <item itemvalue="Python.12" />
+        <item itemvalue="Python.configSQLDB" />
+        <item itemvalue="Python tests.Unittests for testcase_login.Test.test_4_list" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_testcase_login_py - 2020.03.17 at 19h 00m 25s.xml">
+      <configuration name="Unittests in testcase_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase_login_py - 2020.03.17 at 19h 02m 53s.xml">
+      <configuration name="Unittests in testcase_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase_login_py - 2020.03.17 at 19h 03m 52s.xml">
+      <configuration name="Unittests in testcase_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase_login_py - 2020.03.17 at 19h 05m 20s.xml">
+      <configuration name="Unittests in testcase_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase_login_py - 2020.03.17 at 19h 06m 01s.xml">
+      <configuration name="Unittests in testcase_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase_login_py - 2020.03.17 at 19h 18m 02s.xml">
+      <configuration name="Unittests in testcase_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase_login_py - 2020.03.17 at 19h 18m 31s.xml">
+      <configuration name="Unittests in testcase_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase_login_py - 2020.03.17 at 19h 22m 27s.xml">
+      <configuration name="Unittests in testcase_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase_login_py - 2020.03.17 at 19h 26m 06s.xml">
+      <configuration name="Unittests in testcase_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase_login_py - 2020.03.17 at 19h 29m 07s.xml">
+      <configuration name="Unittests in testcase_login.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16759333" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6579407" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39965096" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.798951" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.65095985" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.20979021" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32984293" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="params_check['frame_no']" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/testcase/testcase_add.py" />
+    <entry file="file://$PROJECT_DIR$/testcase/testcase_toadd.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="298" column="8" selection-start-line="298" selection-start-column="8" selection-end-line="298" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/configSQLDB.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config_4_view.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
+        <state relative-caret-position="-206">
           <caret line="60" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/testcase_add.py">
+    <entry file="file://$PROJECT_DIR$/testCase/12.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-130">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/testcase_toadd.py">
+    <entry file="file://D:/SoftWare/Python/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="106">
+          <caret line="614" selection-start-line="614" selection-end-line="614" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/testcase_login.py">
+    <entry file="file://D:/SoftWare/Python/Lib/contextlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="-1299">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/testcase_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,9 +1,3 @@
-# 登录
-url_login = 'http://testfkapi3.chexiao.co/login'
-# 装机接口
-url_toAdd = 'http://testfkapi3.chexiao.co/phx/gongdan/customer/toAdd'
-# 装机提交
-url_add = 'http://testfkapi3.chexiao.co/phx/gongdan/customer/add'
 played = \
     {
         'username': 'xinxinceshi',
@@ -15,21 +9,20 @@ headers = \
         'Host': 'testfkapi3.chexiao.co',
         'Connection': 'Keep-Alive',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362',
-        'Referer': 'http://testfk3.chexiao.co/',
-        'Cookie': 'JSESSIONID=419B31D1AC8F6A43A25654C4596A6932'
+        'Referer': 'http://testfk3.chexiao.co/'
     }
 # 装机工单接口参数
-params = \
+params_add = \
     {
         'orderNum': '',     # 订单编号
-        'name':	'通过接口下工单',   # 车主姓名
-        'frame_no':	'ZAXSSSSSDC4455595',    # 车架号
-        'carBelongId':	'972532754605248',  # 部门/组织id
+        'name':	'测试工单',   # 车主姓名
+        'frame_no':	'8766SSS5401115512',    # 车架号
+        'carBelongId':	'860420313637504',  # 部门/组织id
         'brand': '车牌号',    # 车辆品牌
         'model': '型号',  # 车辆型号
-        'plate_no': '晋ML958',     # 车牌号
+        'plate_no': '晋ML310',     # 车牌号
         'tel': '13254545454',   # 车主电话
-        'driverIdNum': '140825190011110098',    # 身份证号
+        'driverIdNum': '140825190011114098',    # 身份证号
         'family_province': '35',      # 家庭省
         'family_city': '60',          # 家庭市
         'family_address': '4343',       # 家庭详细地址
@@ -63,3 +56,24 @@ params = \
         'insurancePrice': '',
         'projectGroup': '',     # 项目分组（1常规 2万元购项目 3悟空项目 4直租车项目）
     }
+params_list = \
+    {
+        'confirmTimeEnd': '',
+        'confirmTimeStart': '',
+        'createTimeEnd': '',
+        'createTimeStart': '',
+        'creditStatus': '',
+        'deviceNum': '',
+        'frame_no': '',
+        'gongdanType': '',
+        'installBelong': '',
+        'name': '',
+        'orderNum': '',
+        'orgId': '',
+        'page': '1',
+        'pageSize': '10',
+        'sortColumn': '',
+        'sortType': '',
+        'state': ''
+    }
+
