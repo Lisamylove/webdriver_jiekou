@@ -30,6 +30,7 @@ class Test(unittest.TestCase):
         toadd_data = response2.json()
         print(toadd_data)
         print("点击装机按钮", response2.status_code)
+        print('------------------------------------------------------')
 
     def test_3_add(self):
         # 装机提交
@@ -39,12 +40,14 @@ class Test(unittest.TestCase):
         add_data = response_add.json()
         print(add_data)
         print("填写工单信息，提交工单:", response_add.status_code)
+        print('------------------------------------------------------')
 
     def test_4_list(self):
         url_list = 'http://testfkapi3.chexiao.co/phx/gongdan/customer/list'
         response_list = requests.post(url=url_list, data=played, headers=headers, cookies=self.test_1_login(), params=params_list)
+        list_list = response_list.json()['data']['dataList']
         print('获取列表数据成功')
-        return response_list.json()
+        return list_list
 
     def test_5_check(self):
         # 审核工单接口
@@ -53,10 +56,10 @@ class Test(unittest.TestCase):
         params_check = \
             {
                 'parentOrgId': '',
-                'frame_no': self.test_4_list()['data']['dataList'][0]['frame_no'],
-                'id': self.test_4_list()['data']['dataList'][0]['id'],
+                'frame_no': self.test_4_list()[0]['frame_no'],
+                'id': self.test_4_list()[0]['id'],
                 'remarknew': '',
-                'gongdanState': self.test_4_list()['data']['dataList'][0]['gongdanState'],
+                'gongdanState': self.test_4_list()[0]['gongdanState'],
                 'install_id': '0',
                 'install_remark': '',
                 'gongdanType': '0'
@@ -65,6 +68,8 @@ class Test(unittest.TestCase):
         params_check.update({'gongdanState': '11'})
         response_check = requests.post(url=url_check, data=played, headers=headers, cookies=self.test_1_login(), params=params_check)
         print('工单置为待调度状态', response_check.json())
+        print('------------------------------------------------------')
+
         # 将工单调度到东北区域安装公司
         params_check.update({'gongdanState': '12', 'install_id': '990552595259968'})
         response_check = requests.post(url=url_check, data=played, headers=headers, cookies=self.test_1_login(), params=params_check)
