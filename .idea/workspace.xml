@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="189e9dd3-c8ff-47a4-8751-26b6c2fa8654" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testCase/testcase_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/configIMG.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/configPart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/configURL.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCase/testcase_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/testcase_web.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/testcase_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/testcase_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/testcase_web.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/testcase_web.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCase/testcase_web.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testCase/testcase_app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-558">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="205">
+              <caret line="104" column="29" lean-forward="true" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -28,14 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testCase/testcase_app.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/configPart.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="58">
+              <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -64,6 +63,14 @@
       <find>token</find>
       <find>params_list</find>
       <find>Gong</find>
+      <find>c</find>
+      <find>install</find>
+      <find>order_</find>
+      <find>84848495959322919</find>
+      <find>list</find>
+      <find>params_GongDanList</find>
+      <find>data_time</find>
+      <find>order_list</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -83,8 +90,20 @@
         <option value="$PROJECT_DIR$/testCase/12.py" />
         <option value="$PROJECT_DIR$/testCase/testcase_login.py" />
         <option value="$PROJECT_DIR$/testCase/444.py" />
-        <option value="$PROJECT_DIR$/testCase/testcase_web.py" />
         <option value="$PROJECT_DIR$/common/config.py" />
+        <option value="$PROJECT_DIR$/testCase/testcase_web.py" />
+        <option value="$PROJECT_DIR$/testCase/device_img.py" />
+        <option value="$PROJECT_DIR$/common/configIMG.py" />
+        <option value="$PROJECT_DIR$/testCase/upload_pictures.py" />
+        <option value="$PROJECT_DIR$/common/configInstall.py" />
+        <option value="$PROJECT_DIR$/common/configAPP.py" />
+        <option value="$PROJECT_DIR$/testCase/gol.py" />
+        <option value="$PROJECT_DIR$/gol.py" />
+        <option value="$PROJECT_DIR$/testCase/token.py" />
+        <option value="$PROJECT_DIR$/common/configURL.py" />
+        <option value="$PROJECT_DIR$/common/config_APP_Login.py" />
+        <option value="$PROJECT_DIR$/testCase/Install.py" />
+        <option value="$PROJECT_DIR$/common/configPart.py" />
         <option value="$PROJECT_DIR$/testCase/testcase_app.py" />
       </list>
     </option>
@@ -100,6 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,12 +141,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python\webdriver_jiekou" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,7 +164,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for testcase_app.MyTest.test_1_UpdateTime">
+  <component name="RunManager" selected="Python.testcase_app">
+    <configuration name="configInstall" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="webdriver_requests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/configInstall.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testcase_app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="webdriver_requests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCase/testcase_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for testcase_app.MyTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="webdriver_requests" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,34 +218,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;testcase_app.MyTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for testcase_app.MyTest.test_1_UpdateTime" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="webdriver_requests" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testcase_app.MyTest.test_1_UpdateTime&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for testcase_app.MyTest.test_3_updateTime" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="webdriver_requests" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testcase_app.MyTest.test_3_updateTime&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -213,10 +251,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for testcase_app.MyTest.test_1_UpdateTime" />
+        <item itemvalue="Python.testcase_app" />
         <item itemvalue="Python tests.Unittests in testcase_app.py" />
-        <item itemvalue="Python tests.Unittests for testcase_app.MyTest.test_3_updateTime" />
         <item itemvalue="Python tests.Unittests in testcase_web.py" />
+        <item itemvalue="Python.configInstall" />
         <item itemvalue="Python tests.Unittests for testcase_app.MyTest" />
       </list>
     </recent_temporary>
@@ -225,50 +263,50 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_testcase_app_MyTest - 2020.03.18 at 18h 46m 28s.xml">
-      <configuration name="Unittests for testcase_app.MyTest" configurationId="tests" />
+    <history-entry file="Unittests_in_testcase_app_py - 2020.03.20 at 17h 40m 02s.xml">
+      <configuration name="Unittests in testcase_app.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testcase_app_MyTest - 2020.03.18 at 18h 50m 55s.xml">
-      <configuration name="Unittests for testcase_app.MyTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_testcase_app_MyTest - 2020.03.18 at 18h 51m 50s.xml">
-      <configuration name="Unittests for testcase_app.MyTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_testcase_web_py - 2020.03.18 at 19h 02m 24s.xml">
+    <history-entry file="Unittests_in_testcase_web_py - 2020.03.20 at 18h 45m 43s.xml">
       <configuration name="Unittests in testcase_web.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_testcase_app_py - 2020.03.18 at 19h 05m 11s.xml">
+    <history-entry file="Unittests_in_testcase_app_py - 2020.03.20 at 18h 48m 43s.xml">
       <configuration name="Unittests in testcase_app.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_testcase_app_py - 2020.03.18 at 19h 20m 34s.xml">
+    <history-entry file="Unittests_in_testcase_web_py - 2020.03.20 at 18h 50m 17s.xml">
+      <configuration name="Unittests in testcase_web.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase_app_py - 2020.03.20 at 18h 51m 55s.xml">
       <configuration name="Unittests in testcase_app.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testcase_app_MyTest_test_3_updateTime - 2020.03.18 at 19h 24m 02s.xml">
-      <configuration name="Unittests for testcase_app.MyTest.test_3_updateTime" configurationId="tests" />
+    <history-entry file="Unittests_in_testcase_web_py - 2020.03.20 at 18h 59m 21s.xml">
+      <configuration name="Unittests in testcase_web.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_testcase_app_py - 2020.03.18 at 19h 24m 33s.xml">
+    <history-entry file="Unittests_in_testcase_app_py - 2020.03.20 at 19h 00m 15s.xml">
       <configuration name="Unittests in testcase_app.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_testcase_app_py - 2020.03.18 at 19h 24m 54s.xml">
+    <history-entry file="Unittests_in_testcase_app_py - 2020.03.20 at 19h 09m 44s.xml">
       <configuration name="Unittests in testcase_app.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testcase_app_MyTest_test_1_UpdateTime - 2020.03.18 at 19h 29m 18s.xml">
-      <configuration name="Unittests for testcase_app.MyTest.test_1_UpdateTime" configurationId="tests" />
+    <history-entry file="Unittests_in_testcase_app_py - 2020.03.20 at 19h 31m 08s.xml">
+      <configuration name="Unittests in testcase_app.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase_app_py - 2020.03.20 at 19h 31m 31s.xml">
+      <configuration name="Unittests in testcase_app.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16759333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16997617" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.743007" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986014" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
+      <window_info anchor="bottom" content_ui="combo" x="3" y="14" width="1275" height="661" id="Run" order="2" weight="0.5769231" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.58916086" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32867134" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.6136364" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32984293" />
@@ -276,6 +314,24 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16997617" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7097902" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.58916086" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32867134" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.6136364" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32984293" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -311,37 +367,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/444.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/444.py" />
+    <entry file="file://$PROJECT_DIR$/testCase/device_img.py" />
     <entry file="file://D:/SoftWare/Python/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
+        <state relative-caret-position="23">
           <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/upload_pictures.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/testcase_web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="62" column="56" lean-forward="true" selection-start-line="60" selection-start-column="51" selection-end-line="62" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/token.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/SoftWare/Python/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/Install.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="32" column="25" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/configIMG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/configInstall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="-1364">
+          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/testcase_web.py">
+    <entry file="file://D:/SoftWare/Python/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-558">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="142">
+          <caret line="347" selection-start-line="347" selection-end-line="347" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="897" selection-start-line="897" selection-end-line="897" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/configURL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/configPart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testCase/testcase_app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+        <state relative-caret-position="205">
+          <caret line="104" column="29" lean-forward="true" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
